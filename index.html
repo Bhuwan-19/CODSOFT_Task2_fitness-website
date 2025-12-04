@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitNest - Next-Gen Fitness Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <i class="fas fa-atom logo-icon"></i>
+                FitNest
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#classes" class="nav-link">Classes</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#membership" class="nav-link">Membership</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="cta-button">Start Free Trial</button>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-particles"></div>
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <span class="hero-badge">⚡ Transform Your Fitness Journey</span>
+                <h1 class="hero-title">
+                    Elevate Your Limits with<br>
+                    <span class="glow-text">AI-Powered Fitness</span>
+                </h1>
+                <p class="hero-description">
+                    Experience the future of fitness with personalized AI coaching, immersive VR workouts, 
+                    and real-time biometric tracking. Join thousands transforming their lives daily.
+                </p>
+                <button class="cta-button glow-border">
+                    <i class="fas fa-rocket"></i> Launch Your Journey
+                </button>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">15K+</div>
+                        <div class="stat-label">Active Members</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">AI Support</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fitness-dashboard fade-in">
+                <div class="dashboard-header">
+                    <h2 class="dashboard-title">Modern Fitness Training</h2>
+                    <div class="dashboard-subtitle">Real-time Performance Dashboard</div>
+                </div>
+                
+                <div class="achievement-badge">
+                    <div class="badge-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="badge-content">
+                        <span class="badge-title">DAILY GOAL</span>
+                        <span class="badge-status">Achieved</span>
+                    </div>
+                </div>
+                
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <div class="stat-value">480</div>
+                        <div class="stat-label">CALORIES</div>
+                        <div class="stat-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">128</div>
+                        <div class="stat-label">BPM</div>
+                        <div class="stat-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">45</div>
+                        <div class="stat-label">MINUTES</div>
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-footer">
+                    <div class="session-info">
+                        <div class="session-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <div class="session-text">
+                            <strong>Live Session:</strong> HIIT Circuit Training with Coach Alex
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">Why Choose QuantumFit</span>
+                <h2 class="section-title">Revolutionary Fitness Technology</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="feature-title">AI Personal Trainer</h3>
+                    <p>Adaptive workout plans that evolve with your progress, powered by machine learning algorithms.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3 class="feature-title">Immersive VR Workouts</h3>
+                    <p>Train anywhere with our virtual reality system that transports you to incredible environments.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="feature-title">Biometric Tracking</h3>
+                    <p>Real-time monitoring of 15+ health metrics with predictive insights and recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">Advanced Training Programs</span>
+                <h2 class="section-title">Next-Level Fitness Classes</h2>
+            </div>
+            
+            <div class="classes-grid">
+                <div class="class-card fade-in">
+                    <img src="bllog.webp" alt="Cybernetic Circuit" class="class-image">
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-name">Cybernetic Circuit</h3>
+                            <span class="class-level">ADVANCED</span>
+                        </div>
+                        <p class="class-description">
+                            High-intensity interval training enhanced with smart resistance technology and biometric feedback.
+                        </p>
+                        <div class="class-meta">
+                            <span><i class="fas fa-clock"></i> 60 min</span>
+                            <span><i class="fas fa-fire"></i> 600+ kcal</span>
+                            <span><i class="fas fa-users"></i> 12 spots</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="class-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&auto=format&fit=crop" alt="Quantum Flow" class="class-image">
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-name">Quantum Flow</h3>
+                            <span class="class-level">INTERMEDIATE</span>
+                        </div>
+                        <p class="class-description">
+                            Dynamic yoga fusion with motion-capture technology for perfect form and deep mind-body connection.
+                        </p>
+                        <div class="class-meta">
+                            <span><i class="fas fa-clock"></i> 75 min</span>
+                            <span><i class="fas fa-fire"></i> 450+ kcal</span>
+                            <span><i class="fas fa-users"></i> 15 spots</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="class-card fade-in">
+                    <img src="about.png" alt="Neural Strength" class="class-image">
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-name">Neural Strength</h3>
+                            <span class="class-level">BEGINNER</span>
+                        </div>
+                        <p class="class-description">
+                            Mind-muscle connection training with neurofeedback for optimal strength development.
+                        </p>
+                        <div class="class-meta">
+                            <span><i class="fas fa-clock"></i> 50 min</span>
+                            <span><i class="fas fa-fire"></i> 350+ kcal</span>
+                            <span><i class="fas fa-users"></i> 10 spots</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">Meet The Experts</span>
+                <h2 class="section-title">Certified Elite Coaches</h2>
+            </div>
+            
+            <div class="trainers-slider">
+                <div class="trainer-card fade-in">
+                    <img src="image3.png" alt="Alex Morgan" class="trainer-image">
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Alex Morgan</h3>
+                        <p class="trainer-role">Head AI Fitness Specialist</p>
+                        <p>Former NASA researcher turned fitness innovator with 12+ years in biomechanics.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-card fade-in">
+                    <img src="image2.png" alt="Sarah Chen" class="trainer-image">
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Sarah Chen</h3>
+                        <p class="trainer-role">Neuroscience & Performance</p>
+                        <p>PhD in Sports Neuroscience, specializes in cognitive enhancement through physical training.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1549476464-37392f717541?w=800&auto=format&fit=crop" alt="Marcus Rivera" class="trainer-image">
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Marcus Rivera</h3>
+                        <p class="trainer-role">VR Training Architect</p>
+                        <p>Virtual reality pioneer creating immersive fitness environments for optimal engagement.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">Choose Your Quantum Path</span>
+                <h2 class="section-title">Advanced Membership Plans</h2>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card fade-in">
+                    <h3 class="plan-name">Quantum Starter</h3>
+                    <div class="plan-price">$29<span>/month</span></div>
+                    <ul class="plan-features">
+                        <li>AI Workout Plans</li>
+                        <li>Basic Biometric Tracking</li>
+                        <li>Group Classes Access</li>
+                        <li>Mobile App Included</li>
+                        <li>Weekly Progress Reports</li>
+                    </ul>
+                    <button class="cta-button">Start Free Week</button>
+                </div>
+                
+                <div class="pricing-card featured fade-in">
+                    <h3 class="plan-name">Quantum Pro</h3>
+                    <div class="plan-price">$79<span>/month</span></div>
+                    <ul class="plan-features">
+                        <li>All Starter Features</li>
+                        <li>VR Workout Sessions</li>
+                        <li>Advanced AI Coaching</li>
+                        <li>Personalized Nutrition</li>
+                        <li>24/7 Live Support</li>
+                        <li>Recovery Optimization</li>
+                    </ul>
+                    <button class="cta-button glow-border">Most Popular</button>
+                </div>
+                
+                <div class="pricing-card fade-in">
+                    <h3 class="plan-name">Quantum Elite</h3>
+                    <div class="plan-price">$149<span>/month</span></div>
+                    <ul class="plan-features">
+                        <li>All Pro Features</li>
+                        <li>1-on-1 Elite Training</li>
+                        <li>Home Tech Setup</li>
+                        <li>Genetic Analysis</li>
+                        <li>Priority Everything</li>
+                        <li>Global Community Access</li>
+                    </ul>
+                    <button class="cta-button">Book Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>FitNest</h3>
+                    <p>The future of fitness is here. Join the revolution and transform your body, mind, and potential.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="cta-button">Subscribe</button>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Technology</a></li>
+                        <li><a href="#classes">Programs</a></li>
+                        <li><a href="#trainers">Team</a></li>
+                        <li><a href="#membership">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                        <li><a href="#">VR Equipment</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Developer API</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:fitnest@gmail.com">fitnest@gmail.com</a></li>
+                        <li><a href="tel:+1231234123">+91 123-1234-123</a></li>
+                        <li>1/24 M.A Nagar, Chennai</li>
+                        <li>Open 9:00 am - 8:00 pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitNest Technologies. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>This is a conceptual redesign - images from Unsplash</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
